@@ -1067,6 +1067,21 @@ blockquote h6 {
 }
 
 /*-------------------------------------------
+  -- Logo
+-------------------------------------------*/
+
+.icon-menu {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transition: transform 1s ease-in-out;
+}
+.icon-menu:hover {
+    transform: rotateZ(360deg);
+}
+.icon-menu:focus{
+
+  }
+/*-------------------------------------------
   -- Box
 -------------------------------------------*/
 
